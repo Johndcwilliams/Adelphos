@@ -12,7 +12,7 @@ Adelphos::Application.configure do
   config.serve_static_assets = false
   
   # Fixes heroku error with stylesheets
-  config.assets.precompile += %w( blueprint/screen.css blueprint/print.css blueprint/ie.css ) 
+  config.assets.precompile += %w( blueprint/screen.css blueprint/print.css blueprint/ie.css blueprint/custom.css ) 
   
   # Compress JavaScripts and CSS
   config.assets.compress = true
